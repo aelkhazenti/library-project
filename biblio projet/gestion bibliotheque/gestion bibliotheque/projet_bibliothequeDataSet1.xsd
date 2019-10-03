@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="projet_bibliothequeDataSet1" targetNamespace="http://tempuri.org/projet_bibliothequeDataSet1.xsd" xmlns:mstns="http://tempuri.org/projet_bibliothequeDataSet1.xsd" xmlns="http://tempuri.org/projet_bibliothequeDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="projet_bibliothequeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="projet_bibliothequeConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.gestion_bibliotheque.My.MySettings.GlobalReference.Default.projet_bibliothequeConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="adderentTableAdapter" GeneratorDataComponentClassName="adderentTableAdapter" Name="adderent" UserDataComponentName="adderentTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="projet_bibliothequeConnectionString (MySettings)" DbObjectName="projet_bibliotheque.adderent" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ID_A`, `nom_A`, `prenom_A`, `mail_A`, `num_A`, `mdp_A` FROM `adderent`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="auteurTableAdapter" GeneratorDataComponentClassName="auteurTableAdapter" Name="auteur" UserDataComponentName="auteurTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="projet_bibliothequeConnectionString (MySettings)" DbObjectName="projet_bibliotheque.auteur" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ID_AU`, `nom_AU`, `prenom_AU` FROM `auteur`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="livreTableAdapter" GeneratorDataComponentClassName="livreTableAdapter" Name="livre" UserDataComponentName="livreTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="projet_bibliothequeConnectionString (MySettings)" DbObjectName="projet_bibliotheque.livre" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ID_L`, `code_L`, `titre_L`, `nbr_de_page`, `nbr_de_copie`, `ID_AU` FROM `livre`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rapportTableAdapter" GeneratorDataComponentClassName="rapportTableAdapter" Name="rapport" UserDataComponentName="rapportTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="projet_bibliothequeConnectionString (MySettings)" DbObjectName="projet_bibliotheque.rapport" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `ID_RA`, `titre_RA`, `anne_RA`, `type_RA` FROM `rapport`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="projet_bibliothequeDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="projet_bibliothequeDataSet1" msprop:Generator_UserDSName="projet_bibliothequeDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="adderent" msprop:Generator_TableClassName="adderentDataTable" msprop:Generator_TableVarName="tableadderent" msprop:Generator_TablePropName="adderent" msprop:Generator_RowDeletingName="adderentRowDeleting" msprop:Generator_RowChangingName="adderentRowChanging" msprop:Generator_RowEvHandlerName="adderentRowChangeEventHandler" msprop:Generator_RowDeletedName="adderentRowDeleted" msprop:Generator_UserTableName="adderent" msprop:Generator_RowChangedName="adderentRowChanged" msprop:Generator_RowEvArgName="adderentRowChangeEvent" msprop:Generator_RowClassName="adderentRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="auteur" msprop:Generator_TableClassName="auteurDataTable" msprop:Generator_TableVarName="tableauteur" msprop:Generator_TablePropName="auteur" msprop:Generator_RowDeletingName="auteurRowDeleting" msprop:Generator_RowChangingName="auteurRowChanging" msprop:Generator_RowEvHandlerName="auteurRowChangeEventHandler" msprop:Generator_RowDeletedName="auteurRowDeleted" msprop:Generator_UserTableName="auteur" msprop:Generator_RowChangedName="auteurRowChanged" msprop:Generator_RowEvArgName="auteurRowChangeEvent" msprop:Generator_RowClassName="auteurRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="livre" msprop:Generator_TableClassName="livreDataTable" msprop:Generator_TableVarName="tablelivre" msprop:Generator_TablePropName="livre" msprop:Generator_RowDeletingName="livreRowDeleting" msprop:Generator_RowChangingName="livreRowChanging" msprop:Generator_RowEvHandlerName="livreRowChangeEventHandler" msprop:Generator_RowDeletedName="livreRowDeleted" msprop:Generator_UserTableName="livre" msprop:Generator_RowChangedName="livreRowChanged" msprop:Generator_RowEvArgName="livreRowChangeEvent" msprop:Generator_RowClassName="livreRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rapport" msprop:Generator_TableClassName="rapportDataTable" msprop:Generator_TableVarName="tablerapport" msprop:Generator_TablePropName="rapport" msprop:Generator_RowDeletingName="rapportRowDeleting" msprop:Generator_RowChangingName="rapportRowChanging" msprop:Generator_RowEvHandlerName="rapportRowChangeEventHandler" msprop:Generator_RowDeletedName="rapportRowDeleted" msprop:Generator_UserTableName="rapport" msprop:Generator_RowChangedName="rapportRowChanged" msprop:Generator_RowEvArgName="rapportRowChangeEvent" msprop:Generator_RowClassName="rapportRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

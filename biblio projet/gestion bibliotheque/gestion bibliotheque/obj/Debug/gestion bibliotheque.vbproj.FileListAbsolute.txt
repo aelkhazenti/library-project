@@ -1,0 +1,24 @@
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\bin\Debug\gestion bibliotheque.exe.config
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\bin\Debug\gestion bibliotheque.exe
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\bin\Debug\gestion bibliotheque.pdb
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\bin\Debug\gestion bibliotheque.xml
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\bin\Debug\MySql.Data.dll
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\bin\Debug\Google.Protobuf.dll
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\bin\Debug\BouncyCastle.Crypto.dll
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\bin\Debug\MySql.Data.xml
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion bibliotheque.vbprojAssemblyReference.cache
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion_bibliotheque.Form1.resources
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion_bibliotheque.Resources.resources
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion bibliotheque.vbproj.GenerateResource.cache
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion bibliotheque.vbproj.CoreCompileInputs.cache
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion bibliotheque.vbproj.CopyComplete
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion bibliotheque.exe
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion bibliotheque.xml
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion bibliotheque.pdb
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion_bibliotheque.Form2.resources
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion_bibliotheque.livre.resources
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion_bibliotheque.rapport.resources
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion_bibliotheque.reservation.resources
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion_bibliotheque.ma_reservation.resources
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion_bibliotheque.home.resources
+c:\users\mac\source\repos\gestion bibliotheque\gestion bibliotheque\obj\Debug\gestion_bibliotheque.validation.resources
